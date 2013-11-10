@@ -3,6 +3,7 @@ abstract: 'id_token generation / verification module'
 author:
   - 'zentooo <zentooo@gmail.com<gt>'
 build_requires:
+  Test::Exception: 0.32
   Test::More: 0.98
 configure_requires:
   CPAN::Meta: 0
@@ -28,7 +29,7 @@ no_index:
 provides:
   Net::OpenID::Connect::IDToken:
     file: lib/Net/OpenID/Connect/IDToken.pm
-    version: 0.01
+    version: 0.02
   Net::OpenID::Connect::IDToken::Constants:
     file: lib/Net/OpenID/Connect/IDToken/Constants.pm
   Net::OpenID::Connect::IDToken::Exception:
@@ -43,7 +44,7 @@ resources:
   bugtracker: https://github.com/zentooo/Net-OpenID-Connect-IDToken/issues
   homepage: https://github.com/zentooo/Net-OpenID-Connect-IDToken
   repository: git://github.com/zentooo/Net-OpenID-Connect-IDToken.git
-version: 0.01
+version: 0.02
 x_contributors:
-  - 'yokoe.naosuke <yokoe.naosuke@dena.jp>'
   - 'zentooo <ankerasoy@gmail.com>'
+  - 'yokoe.naosuke <yokoe.naosuke@dena.jp>'
